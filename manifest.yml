@@ -1,0 +1,4 @@
+applications:
+- name: back-end-app-julieta
+  random-route: true
+  memory: 128M
