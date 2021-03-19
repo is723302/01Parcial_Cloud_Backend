@@ -37,7 +37,7 @@ app.post('/', function (req, res) {
             res.send(JSON.stringify(toneAnalysis, null, 2));
         })
         .catch(err => {
-            console.log('error:', err);
+            res.send(JSON.stringify(err, null, 2));
         });
 
 })

@@ -1,4 +1,7 @@
 applications:
 - name: back-end-app-julieta
+  buildpacks:
+    - sdk-for-nodejs
+  command: npm run start
   random-route: true
   memory: 128M
